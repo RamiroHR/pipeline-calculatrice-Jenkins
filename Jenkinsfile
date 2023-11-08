@@ -48,10 +48,10 @@ pipeline {
             }
         } 
 
-        stage('Branch'){
+        stage('Branch') {
             agent any
             steps {
-                echo 'This is development branch ("dev")'
+                echo 'dev'
             }
         }
         
